@@ -1,0 +1,26 @@
+# Dependencies and build output
+node_modules/
+react-app/_nm_broken/
+dist/
+.pnpm-store/
+
+# Local tooling and temporary files
+.agents/
+.claude/
+.codex/
+*.log
+.gh-auth.*.log
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Generated video experiments no longer used by the site
+video-casa/
+react-app/public/home-sequence/
+react-app/public/home-sequence-hq/
+
+# Operating system files
+.DS_Store
+Thumbs.db
