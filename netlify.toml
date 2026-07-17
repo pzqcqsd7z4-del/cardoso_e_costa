@@ -1,0 +1,8 @@
+[build]
+  command = "cd react-app && npm install && npm run build"
+  publish = "react-app/dist"
+  functions = "netlify/functions"
+
+[dev]
+  command = "cd react-app && npm run dev"
+  port = 3000
