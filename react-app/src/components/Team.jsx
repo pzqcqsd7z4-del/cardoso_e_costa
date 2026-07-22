@@ -1,4 +1,4 @@
-import { useRef, useState } from 'react'
+import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const team = [
@@ -16,7 +16,6 @@ export default function Team() {
     <section className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32">
       <div ref={ref} className="flex flex-wrap justify-between items-end gap-10 mb-14">
         <div>
-          <p className="text-xs tracking-[0.2em] uppercase text-terracotta-500 mb-4">Liderança</p>
           <h2 className="font-serif text-3xl lg:text-5xl">CARDOSO & COSTA</h2>
         </div>
         <p className="font-serif italic text-lg text-stone-500 max-w-[40ch]">
@@ -50,11 +49,18 @@ export default function Team() {
           transition={{ duration: 0.7 }}
           className="flex items-center justify-center"
         >
-          <div className="w-56 h-56 rounded-lg bg-stone-200 flex items-center justify-center text-ink-900 font-semibold overflow-hidden relative">
-            <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
-              {/** Show logo in the circular badge; fallback to initials if image fails */}
-              <LogoBadge />
-            </div>
+          <div className="w-full max-w-lg aspect-[4/3] rounded-2xl bg-stone-200 overflow-hidden relative shadow-xl border border-stone-200/60 group">
+            <img
+              src="/images/empresa/IMG_0463.jpg"
+              alt="Cardoso & Costa - Liderança"
+              className="w-full h-full object-cover object-center transition-transform duration-700 group-hover:scale-105"
+              onError={(e) => {
+                if (!e.currentTarget.dataset.retried) {
+                  e.currentTarget.dataset.retried = 'true';
+                  e.currentTarget.src = '/assets/img/IMG_0463.jpg';
+                }
+              }}
+            />
           </div>
         </motion.div>
       </div>
@@ -62,29 +68,3 @@ export default function Team() {
   )
 }
 
-function LogoBadge() {
-  const paths = [
-    '/images/empresa/logo.png',
-    '/images/empresa/logo.svg',
-    '/images/site/logo.png',
-    '/images/site/logo.svg',
-    '/assets/img/logo.png',
-    '/assets/img/logo.svg',
-  ]
-  const [index, setIndex] = useState(0)
-
-  const handleError = () => setIndex((i) => i + 1)
-
-  if (index >= paths.length) {
-    return <div className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-ink-900 text-white text-sm font-semibold">CC</div>
-  }
-
-  return (
-    <img
-      src={paths[index]}
-      alt="Logótipo Cardoso & Costa"
-      className="max-w-[60%] max-h-[60%] object-contain"
-      onError={handleError}
-    />
-  )
-}
