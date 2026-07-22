@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 const navLinks = [
   { label: 'Portfolio', to: '/portfolio' },
+  { label: 'Obras Concluídas', to: '/obras-concluidas' },
   { label: 'Empresa',   to: '/empresa'   },
   { label: 'Contacto',  to: '/contacto'  },
 ]
@@ -28,8 +29,8 @@ export default function Header() {
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 lg:px-8 flex items-center justify-between h-20">
-        <Link to="/" className="font-serif text-xl font-semibold text-white">
-          Cardoso <span className="text-terracotta-400">&amp;</span> Costa
+        <Link to="/" className="flex items-center">
+          <img src="/images/empresa-logo.png" alt="Cardoso & Costa" className="h-16 object-contain drop-shadow-lg" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-10">

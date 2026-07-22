@@ -8,6 +8,7 @@ import PageTransition from './components/PageTransition'
 import CookieConsent from './components/CookieConsent'
 import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
+import ObrasConcluidas from './pages/ObrasConcluidas'
 import Empresa from './pages/Empresa'
 import Contacto from './pages/Contacto'
 import ProjectDetail from './pages/ProjectDetail'
@@ -31,6 +32,7 @@ function AppShell() {
           <Routes location={location}>
             <Route path="/" element={<Home />} />
             <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/obras-concluidas" element={<ObrasConcluidas />} />
             <Route path="/empresa" element={<Empresa />} />
             <Route path="/contacto" element={<Contacto />} />
             <Route path="/portfolio/:slug" element={<ProjectDetail />} />
