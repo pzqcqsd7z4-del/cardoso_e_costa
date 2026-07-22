@@ -75,7 +75,7 @@ export default function Header() {
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
             transition={{ duration: 0.3, ease: 'easeInOut' }}
-            className="lg:hidden overflow-hidden bg-ink-900/98 border-t border-white/10"
+            className="lg:hidden overflow-hidden bg-ink-900 border-t border-white/10 relative z-40"
           >
             <div className="px-6 py-6 flex flex-col gap-4">
               {navLinks.map((link) => (
