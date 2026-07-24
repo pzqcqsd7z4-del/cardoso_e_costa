@@ -45,7 +45,7 @@ export default function Home() {
             8 moradias T3 com jardim próprio, pensadas para conforto familiar e
             proximidade com a natureza.
           </p>
-          <Link to="/portfolio/moradias-regadas" className="inline-flex items-center gap-3 bg-ink-900 text-white px-7 py-4 text-xs tracking-[0.1em] uppercase font-medium">
+          <Link to="/portfolio/casas-das-oliveiras" className="inline-flex items-center gap-3 bg-ink-900 text-white px-7 py-4 text-xs tracking-[0.1em] uppercase font-medium">
             Ver Projeto <span>&rarr;</span>
           </Link>
         </div>
