@@ -4,7 +4,7 @@ import ProjectCard from '../components/ProjectCard'
 const projects = [
   { title: 'Casas das Oliveiras', meta: '8 Moradias', image: '/images/moradias-regadas/moradia-1/exterior-01.jpg', to: '/portfolio/casas-das-oliveiras' },
   { title: 'Edifício Bismark', meta: 'Apartamentos T2 · Concluído', image: '/images/edificio-bismark/hero.jpg', to: '/portfolio/edificio-bismark' },
-  { title: 'Edifício Crasto Living', meta: '20 Frações T1+1 · Em Construção', image: '/images/casas-das-oliveiras/hero.jpg', to: '/portfolio/crasto-living' },
+  { title: 'Edifício Crasto Living', meta: '20 Frações , Em Construção', image: '/images/casas-das-oliveiras/hero.jpg', to: '/portfolio/crasto-living' },
 ]
 
 export default function Portfolio() {
