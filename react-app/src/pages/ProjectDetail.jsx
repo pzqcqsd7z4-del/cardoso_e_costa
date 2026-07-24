@@ -19,10 +19,12 @@ export default function ProjectDetail() {
     )
   }
 
-  const suggestedProjects = Object.entries(projects)
-    .filter(([key]) => key !== slug)
+  const PORTFOLIO_KEYS = ['casas-das-oliveiras', 'edificio-bismark', 'crasto-living']
+
+  const suggestedProjects = PORTFOLIO_KEYS
+    .filter((key) => key !== slug && projects[key])
     .slice(0, 2)
-    .map(([key, project]) => ({ slug: key, ...project }))
+    .map((key) => ({ slug: key, ...projects[key] }))
 
   return (
     <>

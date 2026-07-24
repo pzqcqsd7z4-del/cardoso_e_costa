@@ -2,7 +2,7 @@ import { useRef } from 'react'
 import { motion, useInView } from 'framer-motion'
 
 const team = [
-  { name: 'Ricardo Cardoso', role: 'Sócio Fundador & CEO', img: '/images/empresa/ricardo-cardoso.jpg' },
+  { name: 'Serafim Alberto Cardoso', role: 'Sócio Fundador & CEO', img: '/images/empresa/ricardo-cardoso.jpg' },
   { name: 'Miguel Costa',    role: 'Diretor de Projetos',   img: '/images/empresa/miguel-costa.jpg' },
   { name: 'Ana Martins',     role: 'Diretora de Operações', img: '/images/empresa/ana-martins.jpg' },
   { name: 'Duarte Lima',     role: 'Engenheiro Chefe',      img: '/images/empresa/duarte-lima.jpg' },

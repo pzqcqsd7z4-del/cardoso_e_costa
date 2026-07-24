@@ -13,10 +13,10 @@ export default function Home() {
   return (
     <>
       <ProjectHero
-        eyebrow="Cardoso & Costa · Desde 1998"
+        eyebrow="Cardoso & Costa · Desde 1990"
         title="Construção com alma. Arquitetura com propósito."
-        image="/images/moradias-regadas/hero.jpg"
-        meta={['25+ anos de experiência', 'Projetos residenciais', 'Acompanhamento integral']}
+        image="/images/edificio-real-serenity/hero.jpg"
+        meta={['35+ anos de experiência', 'Projetos residenciais', 'Acompanhamento integral']}
         actions={(
           <>
             <Link

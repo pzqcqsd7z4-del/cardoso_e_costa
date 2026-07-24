@@ -32,7 +32,24 @@ export const projects = {
   'casas-das-oliveiras': {
     title: 'Casas das Oliveiras',
     eyebrow: 'Em Construção',
-    meta: ['20 Frações T1+1'],
+    meta: ['8 Moradias'],
+    hero: '/images/moradias-regadas/moradia-1/exterior-01.jpg',
+    gallery: range(15).map((n) => {
+      const names = [
+        'exterior-01', 'exterior-02', 'exterior-03', 'exterior-04', 'exterior-garagem', 'exterior-piscina',
+        'interior-sala-01', 'interior-sala-02', 'interior-jantar', 'interior-hall', 'interior-casa-banho-01',
+        'interior-cozinha', 'interior-quarto', 'interior-closet', 'interior-casa-banho-02',
+      ]
+      return `/images/moradias-regadas/moradia-1/${names[n - 1]}.jpg`
+    }),
+    plans: [
+      { label: 'Plantas - Todas as Frações', file: '/images/moradias-regadas/plantas-todas-fracoes.pdf' },
+    ],
+  },
+  'crasto-living': {
+    title: 'Edifício Crasto Living',
+    eyebrow: 'Em Construção',
+    meta: ['20 Frações · T1+1'],
     hero: '/images/casas-das-oliveiras/hero.jpg',
     gallery: range(7).map((n) => `/images/casas-das-oliveiras/foto-${String(n).padStart(2, '0')}.jpg`),
     plans: [

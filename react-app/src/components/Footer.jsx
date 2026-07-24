@@ -12,7 +12,7 @@ export default function Footer() {
               Cardoso <span className="text-terracotta-400">&amp;</span> Costa
             </Link>
             <p className="text-sm font-light leading-relaxed text-stone-400 mt-5 max-w-[34ch]">
-              Referência na construção de espaços arquitetónicos contemporâneos em Portugal desde 1998.
+              Referência na construção de espaços arquitetónicos contemporâneos em Portugal desde 1990.
             </p>
             <div className="flex gap-3 mt-6">
               <a href="#" aria-label="Instagram" className="w-9 h-9 rounded-full border border-white/20 flex items-center justify-center text-[11px] hover:border-terracotta-400 hover:text-terracotta-300 transition-colors">IG</a>

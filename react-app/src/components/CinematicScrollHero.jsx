@@ -333,7 +333,7 @@ export default function CinematicScrollHero() {
               <div className="max-w-3xl">
                 <p className="mb-6 flex items-center gap-3 text-[10px] font-medium uppercase tracking-[0.28em] text-stone-200 sm:text-xs">
                   <span className="h-px w-8 bg-terracotta-400" />
-                  Cardoso &amp; Costa · Desde 1998
+                  Cardoso &amp; Costa · Desde 1990
                 </p>
                 <h1 className="max-w-3xl font-serif text-5xl font-medium leading-[0.98] tracking-[-0.035em] text-white sm:text-6xl lg:text-7xl">
                   Construção com alma.

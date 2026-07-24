@@ -3,7 +3,7 @@ import { motion, useInView } from 'framer-motion'
 import Counter from './Counter'
 
 const stats = [
-  { to: new Date().getFullYear() - 1998, suffix: '+', label: 'Anos de Experiência' },
+  { to: new Date().getFullYear() - 1990, suffix: '+', label: 'Anos de Experiência' },
   { to: 3, suffix: '', label: 'Projetos em Curso' },
   { to: 100, suffix: '%', label: 'Acompanhamento Personalizado' },
 ]

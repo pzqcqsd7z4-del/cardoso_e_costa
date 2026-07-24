@@ -2,7 +2,7 @@
   <div class="footer__top">
     <div class="footer__brand">
       <a href="index.php" class="nav__logo">Cardoso <span>&amp;</span> Costa</a>
-      <p>Referência na construção de espaços arquitetónicos contemporâneos em Portugal desde 1998.</p>
+      <p>Referência na construção de espaços arquitetónicos contemporâneos em Portugal desde 1990.</p>
       <div class="footer__social">
         <a href="#" aria-label="Instagram">IG</a>
         <a href="#" aria-label="LinkedIn">IN</a>
