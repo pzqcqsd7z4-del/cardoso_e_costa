@@ -40,10 +40,10 @@ export default function Home() {
       <section className="max-w-7xl mx-auto px-6 lg:px-8 py-24 lg:py-32 grid lg:grid-cols-2 gap-16 items-center">
         <div>
           <p className="text-xs tracking-[0.2em] uppercase text-terracotta-500 mb-4">Projeto em Destaque</p>
-          <h2 className="font-serif text-3xl lg:text-5xl mb-6">Moradias de Regadas</h2>
+          <h2 className="font-serif text-3xl lg:text-5xl mb-6">Casas das oliveiras</h2>
           <p className="text-stone-500 font-light max-w-[46ch] mb-8">
-            13 moradias T3 com jardim próprio, pensadas para conforto familiar e
-            proximidade com a natureza, já na 2ª fase de construção.
+            8 moradias T3 com jardim próprio, pensadas para conforto familiar e
+            proximidade com a natureza.
           </p>
           <Link to="/portfolio/moradias-regadas" className="inline-flex items-center gap-3 bg-ink-900 text-white px-7 py-4 text-xs tracking-[0.1em] uppercase font-medium">
             Ver Projeto <span>&rarr;</span>
