@@ -3,3 +3,5 @@ deployment:
   tasks:
     - "export DEPLOYPATH=/home/cardosoecosta/public_html"
     - "/bin/cp -R react-app/dist/. $DEPLOYPATH"
+    - "/bin/mkdir -p /home/cardosoecosta/forms.cardosoecosta.pt"
+    - "/bin/cp react-app/dist/api/contact.php /home/cardosoecosta/forms.cardosoecosta.pt/contact.php"

@@ -5,6 +5,20 @@ declare(strict_types=1);
 header('Content-Type: application/json; charset=UTF-8');
 header('Cache-Control: no-store');
 
+$origin = (string) ($_SERVER['HTTP_ORIGIN'] ?? '');
+$allowedOrigins = [
+    'https://cardosoecosta.pt',
+    'https://www.cardosoecosta.pt',
+    'https://cardoso-e-costa.pages.dev',
+];
+
+if ($origin !== '' && in_array($origin, $allowedOrigins, true)) {
+    header('Access-Control-Allow-Origin: ' . $origin);
+    header('Access-Control-Allow-Methods: POST, OPTIONS');
+    header('Access-Control-Allow-Headers: Accept, Content-Type');
+    header('Vary: Origin');
+}
+
 function respond(int $status, array $payload): void
 {
     http_response_code($status);
@@ -24,6 +38,19 @@ function clean_text($value, int $maxLength): string
     }
 
     return substr($value, 0, $maxLength);
+}
+
+if (($_SERVER['REQUEST_METHOD'] ?? '') === 'OPTIONS') {
+    if ($origin === '' || !in_array($origin, $allowedOrigins, true)) {
+        respond(403, ['ok' => false, 'message' => 'Origem não autorizada.']);
+    }
+
+    http_response_code(204);
+    exit;
+}
+
+if ($origin !== '' && !in_array($origin, $allowedOrigins, true)) {
+    respond(403, ['ok' => false, 'message' => 'Origem não autorizada.']);
 }
 
 if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {

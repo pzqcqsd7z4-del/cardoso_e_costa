@@ -16,7 +16,7 @@ export default function ContactForm() {
     setError('')
 
     try {
-      const response = await fetch('/api/contact.php', {
+      const response = await fetch('https://forms.cardosoecosta.pt/contact.php', {
         method: 'POST',
         headers: {
           Accept: 'application/json',
