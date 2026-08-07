@@ -67,6 +67,7 @@ export default function ContactForm() {
                 <option value="moradias-regadas">Moradias de Regadas</option>
                 <option value="edificio-bismark">Edifício Bismark</option>
                 <option value="casas-das-oliveiras">Casas das Oliveiras</option>
+                <option value="crasto-living">Edifício Crasto Living</option>
               </select>
             </label>
           </div>

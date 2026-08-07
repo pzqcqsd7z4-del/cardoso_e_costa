@@ -3,9 +3,9 @@ import CompletedProjectCard from '../components/CompletedProjectCard'
 
 const completedProjects = [
   { title: 'Edifício S. Pedro Design I e II', meta: '30 Apartamentos + 4 Lojas · Vendido', image: '/images/s-pedro-design/hero.jpg' },
-  { title: 'Moradias de Regadas 2ª e 3ª Fase', meta: '13 Moradias T3 · Vendido', image: '/images/moradias-regadas/hero.jpg' },
+  { title: 'Moradias das Regadas 1.ª, 2.ª e 3.ª Fases', meta: '17 Moradias T3 · Vendido', image: '/images/moradias-regadas/hero.jpg' },
   { title: 'Empreendimento Villas Premium', meta: '15 Moradias T3 · Vendido', image: '/images/villas-premium/hero.jpg' },
-  { title: 'Edifício Real Serenity', meta: '18 Frações (T2/T3/T3+1/T4) · Vendido', image: '/images/edificio-real-serenity/hero.jpg' },
+  { title: 'Edifício Real Serenity I e II', meta: '36 Frações (T1/T2/T3/T3+1/T4) · Vendido', image: '/images/edificio-real-serenity/hero.jpg' },
 ]
 
 export default function ObrasConcluidas() {

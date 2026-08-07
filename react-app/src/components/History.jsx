@@ -5,7 +5,7 @@ const milestones = [
   { year: '1990', title: 'A Fundação', text: 'Serafim Alberto Cardoso funda a Cardoso & Costa com uma pequena equipa e um objetivo claro: construir com rigor e honestidade.' },
   { year: '2008', title: 'Primeiros Grandes Projetos', text: 'A empresa consolida-se com os primeiros edifícios de habitação multifamiliar, ganhando reputação pela qualidade dos acabamentos.' },
   { year: '2016', title: 'Expansão da Equipa', text: 'Reforço do gabinete técnico e de arquitetura, permitindo abraçar projetos maiores e mais exigentes.' },
-  { year: '2026', title: 'O Presente', text: 'Moradias de Regadas, Edifício Bismark e Casas das Oliveiras representam a fase mais ambiciosa da nossa história.' },
+  { year: '2026', title: 'O Presente', text: 'Moradias de Regadas, Edifício Bismark, Casas das Oliveiras e Edifício Crasto Living representam a fase mais ambiciosa da nossa história.' },
 ]
 
 export default function History() {
