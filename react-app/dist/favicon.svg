@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <!-- Background -->
+  <rect width="120" height="120" fill="transparent"/>
+
+  <!-- Fitas brancas esquerda -->
+  <path d="M 40 20 Q 30 35 40 50" stroke="white" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Fitas brancas direita -->
+  <path d="M 80 20 Q 90 35 80 50" stroke="white" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Casa Telhado esquerdo -->
+  <path d="M 60 25 L 40 50" stroke="#D4AF37" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Casa Telhado direito -->
+  <path d="M 60 25 L 80 50" stroke="#D4AF37" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- Casa Parede -->
+  <rect x="40" y="48" width="40" height="30" fill="#D4AF37" opacity="0.3" rx="2"/>
+
+  <!-- Porta -->
+  <rect x="55" y="58" width="10" height="15" fill="none" stroke="#D4AF37" stroke-width="1.5" rx="1"/>
+
+  <!-- Janela esquerda -->
+  <rect x="46" y="54" width="6" height="6" fill="none" stroke="#D4AF37" stroke-width="1" rx="1"/>
+
+  <!-- Janela direita -->
+  <rect x="68" y="54" width="6" height="6" fill="none" stroke="#D4AF37" stroke-width="1" rx="1"/>
+</svg>
