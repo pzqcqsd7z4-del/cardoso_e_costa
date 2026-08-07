@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/cardosoecosta/public_html
+    - /bin/cp -R react-app/dist/* $DEPLOYPATH
+    
