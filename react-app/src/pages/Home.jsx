@@ -5,7 +5,7 @@ import ProjectCard from '../components/ProjectCard'
 import CtaBanner from '../components/CtaBanner'
 
 const otherProjects = [
-  { title: 'Edifício Bismark', meta: 'Apartamentos T2 · Concluído', image: '/images/edificio-bismark/hero.jpg', to: '/portfolio/edificio-bismark' },
+  { title: 'Edifício Bismark', meta: 'Apartamentos T2, T3, T4 · Concluído', image: '/images/edificio-bismark/hero.jpg', to: '/portfolio/edificio-bismark' },
   { title: 'Casas das Oliveiras', meta: '20 Frações T1+1 · Em Construção', image: '/images/casas-das-oliveiras/hero.jpg', to: '/portfolio/casas-das-oliveiras' },
 ]
 

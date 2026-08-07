@@ -21,7 +21,7 @@ export const projects = {
   'edificio-bismark': {
     title: 'Edifício Bismark',
     eyebrow: 'Concluído',
-    meta: ['Apartamentos T2'],
+    meta: ['Apartamentos T2, T3, T4'],
     hero: '/images/edificio-bismark/hero.jpg',
     gallery: range(31).map((n) => `/images/edificio-bismark/foto-${String(n).padStart(2, '0')}.jpg`),
     plans: ['A', 'B', 'C', 'D', 'E', 'F'].map((l) => ({
