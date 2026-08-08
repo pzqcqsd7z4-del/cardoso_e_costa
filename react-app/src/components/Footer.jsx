@@ -23,9 +23,9 @@ export default function Footer() {
           <div>
             <h5 className="text-terracotta-400 text-xs tracking-[0.15em] uppercase mb-5">Projetos</h5>
             <ul className="space-y-3 text-sm font-light">
-              <li><Link to="/portfolio/moradias-regadas" className="hover:text-white transition-colors">Moradias de Regadas</Link></li>
-              <li><Link to="/portfolio/edificio-bismark" className="hover:text-white transition-colors">Edifício Bismark</Link></li>
               <li><Link to="/portfolio/casas-das-oliveiras" className="hover:text-white transition-colors">Casas das Oliveiras</Link></li>
+              <li><Link to="/portfolio/edificio-bismark" className="hover:text-white transition-colors">Edifício Bismark</Link></li>
+              <li><Link to="/portfolio/crasto-living" className="hover:text-white transition-colors">Edifício Crasto Living</Link></li>
             </ul>
           </div>
 
